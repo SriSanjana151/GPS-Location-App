@@ -1,0 +1,38 @@
+<LinearLayoutxmlns:android="http://schemas.android.com/apk/res/android" 
+xmlns:tools="http://schemas.android.com/tools" 
+android:id="@+id/LinearLayout1" 
+android:layout_width="match_parent" 
+android:layout_height="match_parent" 
+android:orientation="vertical" 
+android:weightSum="2.0"> 
+<LinearLayout 
+android:layout_width="match_parent" 
+android:layout_height="match_parent" 
+android:orientation="vertical" 
+android:layout_weight="1.9"> 
+<TextView 
+android:id="@+id/textView1" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:text="Medium Text" 
+android:textSize="12sp" 
+android:textAppearance="?android:attr/textAppearanceMedium" /> 
+</LinearLayout> 
+<LinearLayout 
+android:layout_width="match_parent" 
+android:layout_height="match_parent" 
+android:orientation="vertical" 
+android:layout_weight="0.1"> 
+<fragment 
+android:id="@+id/fragment1map" 
+android:name="com.google.android.gms.maps.MapFragment" 
+Department of Information Technology 
+Page  
+K. Ramakrishnan College of Engineering (Autonomous), Trichy 
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent" /> 
+</LinearLayout> 
+</LinearLayout>. 
+MainActivity.Java: 
+package com.example.location; 
+importcom.google.android.gms.maps.CameraUpd
